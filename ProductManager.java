@@ -1,2 +1,2 @@
-public class ProductManager {
+public class ProductManager extends Employee {
 }

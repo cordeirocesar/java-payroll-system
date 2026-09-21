@@ -1,2 +1,2 @@
-public class DevOpsEngineer {
+public class DevOpsEngineer extends Employee {
 }
