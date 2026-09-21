@@ -9,6 +9,8 @@ public class Main {
         developer.setName("Francesco Totti");
         developer.setEmail("francesco@developer.it");
         developer.setSalary(8000);
+        double  result = developer.calculateSalary();
+        System.out.println(result);
 
         Employee productManager = new ProductManager();
         productManager.setName("Giulia Tofana");
