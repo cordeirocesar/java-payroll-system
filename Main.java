@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
     static void main(String[] args) {
@@ -16,5 +19,10 @@ public class Main {
         devOpsEngineer.setName("Andrea Pirlo");
         devOpsEngineer.setEmail("andreapirlo@devopsengineer.it");
         devOpsEngineer.setSalary(9000);
+
+        List<Employee> employees = new ArrayList<>();
+        employees.add(developer);
+        employees.add(productManager);
+        employees.add(devOpsEngineer);
     }
 }
