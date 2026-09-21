@@ -1,4 +1,4 @@
-public class Employee extends Person {
+public abstract class Employee extends Person {
 
     private double salary;
 
@@ -16,4 +16,6 @@ public class Employee extends Person {
     public void setSalary(double salary) {
         this.salary = salary;
     }
+
+    abstract double calculateSalary();
 }
