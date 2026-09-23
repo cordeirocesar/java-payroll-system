@@ -26,8 +26,14 @@ public class Main {
         employees.add(productManager);
         employees.add(devOpsEngineer);
 
+        double totalPayroll = 0;
+
         for (Employee employee : employees) {
             employee.showInfo();
+            totalPayroll += employee.getSalary();
         }
+
+        System.out.println("Total Employees: " +  employees.size());
+        System.out.println("Total Salary: " +  totalPayroll);
     }
 }
