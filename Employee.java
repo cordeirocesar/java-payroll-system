@@ -24,6 +24,7 @@ public abstract class Employee extends Person {
         System.out.println("Role: " + role());
         System.out.println("Basic Salary: " + getSalary());
         System.out.println("Total Earnings: " + calculateSalary());
+        System.out.println("-------------------------------");
     }
 
     abstract String role();

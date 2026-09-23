@@ -25,5 +25,9 @@ public class Main {
         employees.add(developer);
         employees.add(productManager);
         employees.add(devOpsEngineer);
+
+        for (Employee employee : employees) {
+            employee.showInfo();
+        }
     }
 }
